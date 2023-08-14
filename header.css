@@ -1,0 +1,84 @@
+.home {
+    position: relative;
+    width: fit-content
+}
+
+.home-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.murphy-bar {
+    position: relative;
+    cursor: pointer;
+    width: auto;
+}
+
+.murphy-bar-wrapper {
+    width: 66px;
+}
+
+.murphy-bar-wrapper,
+.photo-price-list-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-left-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+    width: auto;
+}
+
+.header-filler {
+    flex: 1;
+}
+
+.header-right-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header {
+    overflow: hidden;
+    display: flex;
+    margin: 0 !important;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    flex-direction: row;
+    padding: var(--padding-5xs) var(--padding-21xl);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 200;
+    font-size: var(--font-size-xs);
+}
+
+@media (max-width: 548px) {
+
+    .murphy-bar,
+    .home {
+        font-size: 8px;
+    }
+
+    .header-left-links {
+        gap: 5px;
+    }
+
+    .header {
+        padding: var(--padding-5xs);
+    }
+}

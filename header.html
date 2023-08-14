@@ -1,0 +1,77 @@
+<link rel="stylesheet" href="header.css" />
+
+
+    <div class="header">
+      <div class="header-left-links">
+        <div class="home-wrapper" id="frameContainer">
+          <div class="home">Home</div>
+        </div>
+        <div class="murphy-bar-wrapper">
+          <div class="murphy-bar" id="murphyBarText">Murphy Bar</div>
+        </div>
+        <div class="photo-price-list-wrapper">
+            <div class="murphy-bar" id="photoPriceListText">Photo Pricelist</div>
+          </div>
+        <div class="photo-price-list-wrapper">
+          <div class="murphy-bar" id="photoPackagesText">Photo Packages</div>
+        </div>
+        <div class="photo-price-list-wrapper">
+          <div class="murphy-bar" id="ourWorkText">Our Work</div>
+        </div>
+      </div>
+      <div class="header-filler"></div>
+      <div class="header-right-links">
+        <div class="murphy-bar" id="aboutText">About</div>
+      </div>
+    </div>
+
+      <script>
+        var frameContainer = document.getElementById("frameContainer");
+        if (frameContainer) {
+          frameContainer.addEventListener("click", function (e) {
+            window.location.href = "./index.html";
+          });
+        }
+        
+        var murphyBarText = document.getElementById("murphyBarText");
+        if (murphyBarText) {
+          murphyBarText.addEventListener("click", function (e) {
+            window.location.href = "./murphybar.html";
+          });
+        }
+        
+        var photoPricelistText = document.getElementById("photoPricelistText");
+        if (photoPricelistText) {
+          photoPricelistText.addEventListener("click", function (e) {
+            window.location.href = "./pricelist.html";
+          });
+        }
+        
+        var photoPricelistText = document.getElementById("photoPriceListText");
+      if (photoPricelistText) {
+        photoPricelistText.addEventListener("click", function (e) {
+          window.location.href = "./pricelist.html";
+        });
+      }
+
+        var photoPackagesText = document.getElementById("photoPackagesText");
+        if (photoPackagesText) {
+          photoPackagesText.addEventListener("click", function (e) {
+            window.location.href = "./packages.html";
+          });
+        }
+        
+        var ourWorkText = document.getElementById("ourWorkText");
+        if (ourWorkText) {
+          ourWorkText.addEventListener("click", function (e) {
+            window.location.href = "./OurWork.html";
+          });
+        }
+        
+        var aboutText = document.getElementById("aboutText");
+        if (aboutText) {
+          aboutText.addEventListener("click", function (e) {
+            window.location.href = "./thestory.html";
+          });
+        }
+        </script>

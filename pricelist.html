@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./pricelist.css" />
+    <link rel="stylesheet" href="tablestyle.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap"
+    />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+  </head>
+  <body>
+    <div class="pricelist">
+      <div class="header">
+        <div class="header-left-links">
+          <div class="home-wrapper" id="frameContainer">
+            <div class="home">Home</div>
+          </div>
+          <div class="murphy-bar-wrapper">
+            <div class="murphy-bar" id="murphyBarText">Murphy Bar</div>
+          </div>
+          <div class="photo-price-list-wrapper">
+            <div class="murphy-bar" id="photoPriceListText">Photo Pricelist</div>
+          </div>
+          <div class="photo-price-list-wrapper">
+            <div class="murphy-bar" id="photoPackagesText">Photo Packages</div>
+          </div>
+          <div class="photo-price-list-wrapper">
+            <div class="murphy-bar" id="ourWorkText">Our Work</div>
+          </div>
+        </div>
+        <div class="header-filler"></div>
+        <div class="header-right-links">
+          <div class="murphy-bar" id="aboutText">About</div>
+        </div>
+        
+      </div>
+      <div class="pagetitle">
+        <div class="formphoto2">FORM+PHOTO</div>
+      </div>
+      <div class="pricelist1">PRICELIST</div>
+      <main class="table">
+        <section class="table__header">
+          <h1>Summer 2023</h1>
+          <div class="input-group">
+              <input type="search" placeholder="Search">
+              <img src="images/search.png" alt="">
+          </div>
+          <div class="export__file">
+              <label for="export-file" class="export__file-btn" title="Export File"></label>
+              <input type="checkbox" id="export-file">
+              <div class="export__file-options">
+                  <label>Export As &nbsp; &#10140;</label>
+                  <label for="export-file" id="toPDF">PDF <img src="images/pdf.png" alt=""></label>
+                  <label for="export-file" id="toJSON">JSON <img src="images/json.png" alt=""></label>
+                  <label for="export-file" id="toCSV">CSV <img src="images/csv.png" alt=""></label>
+                  <label for="export-file" id="toEXCEL">EXCEL <img src="images/excel.png" alt=""></label>
+              </div>
+          </div>
+      </section>
+      <section class="table__body">
+          <table>
+              <thead>
+                  <tr>
+                      <th>  <span class="icon-arrow">&UpArrow;</span></th>
+                      <th> BASIC PHOTO <span class="icon-arrow">&UpArrow;</span></th>
+                      <th> ENHANCED PHOTO <span class="icon-arrow">&UpArrow;</span></th>
+                      <th> VIDEO <span class="icon-arrow">&UpArrow;</span></th>
+                      <th> ENHANCED PHOTO + VIDEO <span class="icon-arrow">&UpArrow;</span></th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td> UNDER 1200 FT.² </td>
+                      <td> $275 </td>
+                      <td> $350 </td>
+                      <td> $400 </td>
+                      <td> <strong> $700 </strong></td>
+                  </tr>
+                  <tr>
+                      <td>1200 FT.² TO 3000 FT.² </td>
+                      <td> $350 </td>
+                      <td> $400 </td>
+                      <td> $475 </td>
+                      <td> <strong> $825 </strong></td>
+                  </tr>
+                  <tr>
+                      <td> OVER 3000 FT.² </td>
+                      <td> $375 </td>
+                      <td> $475 </td>
+                      <td> $550 </td>
+                      <td> <strong> $1000 </strong></td>
+                  </tr>
+
+              </tbody>
+          </table>
+      </section>
+      </main>
+    </div>
+    <footer style="width: 100%;">
+      <div class="social-icon">
+        <!-- Facebook -->
+        <a href="" target="_blank" class="fa fa-facebook-f fa-lg fa-2x padding-right"></a>
+        <!--Instagram-->
+        <a href="" target="_blank" class="fa fa-instagram fa-lg fa-2x padding-right"></a>
+        <!-- Twitter -->
+        <a href="" target="_blank" class="fa fa-twitter fa-lg fa-2x padding-right"></a>
+        <!-- Pinterest -->
+        <a href="" target="_blank" class="fa fa-pinterest fa-lg fa-2x padding-right"></a>
+        <!-- Linkedin -->
+        <a href="" target="_blank" class="fa fa-linkedin fa-lg fa-2x padding-right"></a>
+        <!-- GitHub -->
+        <a href="" target="_blank" class="fa fa-github-alt fa-lg fa-2x"></a>
+      </div>
+    </footer>
+<script src="script.js"></script>>
+    <script>
+      var frameContainer = document.getElementById("frameContainer");
+      if (frameContainer) {
+        frameContainer.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      
+      var murphyBarText = document.getElementById("murphyBarText");
+      if (murphyBarText) {
+        murphyBarText.addEventListener("click", function (e) {
+          window.location.href = "./murphybar.html";
+        });
+      }
+      
+      var photoPricelistText = document.getElementById("photoPricelistText");
+      if (photoPricelistText) {
+        photoPricelistText.addEventListener("click", function (e) {
+          window.location.href = "./pricelist.html";
+        });
+      }
+      
+      var photoPackagesText = document.getElementById("photoPackagesText");
+      if (photoPackagesText) {
+        photoPackagesText.addEventListener("click", function (e) {
+          window.location.href = "./packages.html";
+        });
+      }
+      
+      var ourWorkText = document.getElementById("ourWorkText");
+      if (ourWorkText) {
+        ourWorkText.addEventListener("click", function (e) {
+          window.location.href = "./OurWork.html";
+        });
+      }
+      
+      var aboutText = document.getElementById("aboutText");
+      if (aboutText) {
+        aboutText.addEventListener("click", function (e) {
+          window.location.href = "./thestory.html";
+        });
+      }
+      </script>
+  </body>
+</html>

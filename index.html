@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form+Photo</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap"
+    />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="homepage">
+      <div class="header">
+        <div class="header-left-links">
+          <div class="home-wrapper" id="frameContainer">
+            <div class="home">Home</div>
+          </div>
+          <div class="murphy-bar-wrapper">
+            <div class="murphy-bar" id="murphyBarText">Murphy Bar</div>
+          </div>
+          <div class="photo-price-list-wrapper">
+            <div class="murphy-bar" id="photoPriceListText">Photo Pricelist</div>
+          </div>
+          <div class="photo-price-list-wrapper">
+            <div class="murphy-bar" id="photoPackagesText">Photo Packages</div>
+          </div>
+          <div class="photo-price-list-wrapper">
+            <div class="murphy-bar" id="ourWorkText">Our Work</div>
+          </div>
+        </div>
+        <div class="header-filler"></div>
+        <div class="header-right-links">
+          <div class="murphy-bar" id="aboutText">About</div>
+        </div>
+        </div>
+      </div>
+      <div class="form-and-photo">
+        <div class="formphoto">FORM+PHOTO</div>
+      </div>
+      <div class="limited-design-cta">
+        <div class="new-limited-designs">NEW LIMITED DESIGNS GET YOURS NOW</div>
+      </div>
+      <div class="trays">
+        <div class="formphoto">TRAYS</div>
+      </div>
+      <div class="make-your-projects">MAKE YOUR PROJECTS POP</div>
+      <div class="story">
+        <div class="new-limited-designs">
+          WE WORK TIRELESSLY TO BRING YOU THE MOST STANDOUT STYLE AND VOICE TO
+          YOUR DESIGN PROJECTS. GRAB YOUR AUDIENCE AND BLOW THEIR MINDS BACK TO
+          BUY BUTTON.
+        </div>
+      </div>
+      <div class="murphy-bar1" id="murphyBarContainer">
+        <div class="formphoto">MURPHY BAR</div>
+      </div>
+      <div class="bath-caddy">
+        <div class="formphoto">BATH CADDY</div>
+      </div>
+      <div class="photography1" id="photographyContainer">
+        <div class="formphoto">PHOTOGRAPHY</div>
+      </div>
+      <div class="imagery-that-make">IMAGERY THAT MAKE YOUR JAW DROP</div>
+      <div class="story-2">
+        <div class="not-only-are">
+          NOT ONLY ARE WE A FULL SERVICE DESIGN STUDIO, WE ARE FULL SERVICE. OUR
+          PHOTO AND VIDEO WORK IS GUARANTEED TO MAKE THEIR NECKS SNAP.
+        </div>
+      </div>
+      <img class="product-gif-icon" alt="" src="./public/product-gif@2x.png" />
+      <footer style="width: 100%;">
+        <div class="social-icon">
+          <!-- Facebook -->
+          <a href="" target="_blank" class="fa fa-facebook-f fa-lg fa-2x padding-right"></a>
+          <!--Instagram-->
+          <a href="" target="_blank" class="fa fa-instagram fa-lg fa-2x padding-right"></a>
+          <!-- Twitter -->
+          <a href="" target="_blank" class="fa fa-twitter fa-lg fa-2x padding-right"></a>
+          <!-- Pinterest -->
+          <a href="" target="_blank" class="fa fa-pinterest fa-lg fa-2x padding-right"></a>
+          <!-- Linkedin -->
+          <a href="" target="_blank" class="fa fa-linkedin fa-lg fa-2x padding-right"></a>
+          <!-- GitHub -->
+          <a href="" target="_blank" class="fa fa-github-alt fa-lg fa-2x"></a>
+        </div>
+      </footer>
+    
+    </header>
+
+    <script>
+      var frameContainer = document.getElementById("frameContainer");
+      if (frameContainer) {
+        frameContainer.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      
+      var murphyBarText = document.getElementById("murphyBarText");
+      if (murphyBarText) {
+        murphyBarText.addEventListener("click", function (e) {
+          window.location.href = "./murphybar.html";
+        });
+      }
+      
+      var photoPricelistText = document.getElementById("photoPriceListText");
+      if (photoPricelistText) {
+        photoPricelistText.addEventListener("click", function (e) {
+          window.location.href = "./pricelist.html";
+        });
+      }
+      
+      var photoPackagesText = document.getElementById("photoPackagesText");
+      if (photoPackagesText) {
+        photoPackagesText.addEventListener("click", function (e) {
+          window.location.href = "./packages.html";
+        });
+      }
+      
+      var ourWorkText = document.getElementById("ourWorkText");
+      if (ourWorkText) {
+        ourWorkText.addEventListener("click", function (e) {
+          window.location.href = "./OurWork.html";
+        });
+      }
+      
+      var aboutText = document.getElementById("aboutText");
+      if (aboutText) {
+        aboutText.addEventListener("click", function (e) {
+          window.location.href = "./thestory.html";
+        });
+      }
+      </script>
+  </body>
+</html>

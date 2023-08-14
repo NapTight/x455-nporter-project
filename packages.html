@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./packages.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap"
+    />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="header.css" />
+  </head>
+  <body>
+    <div class="packages">
+      <div class="header">
+        <div class="header-left-links">
+          <div class="home-wrapper" id="frameContainer">
+            <div class="home">Home</div>
+          </div>
+          <div class="murphy-bar-wrapper">
+            <div class="murphy-bar" id="murphyBarText">Murphy Bar</div>
+          </div>
+          <div class="photo-price-list-wrapper">
+            <div class="murphy-bar" id="photoPriceListText">Photo Pricelist</div>
+          </div>
+          <div class="photo-price-list-wrapper">
+            <div class="murphy-bar" id="photoPackagesText">Photo Packages</div>
+          </div>
+          <div class="photo-price-list-wrapper">
+            <div class="murphy-bar" id="ourWorkText">Our Work</div>
+          </div>
+        </div>
+        <div class="header-filler"></div>
+        <div class="header-right-links">
+          <div class="murphy-bar" id="aboutText">About</div>
+        </div>
+
+      </div>
+      <div class="formphoto-wrapper">
+        <div class="formphoto1">FORM+PHOTO</div>
+      </div>
+      <div class="packages1">PACKAGES</div>
+      <div class="body1">
+        <div class="images">
+          <img class="image1-icon" alt="" src="./public/7.jpg" />
+
+          <img class="image1-icon" alt="" src="./public/3.jpg" />
+
+          <img class="image1-icon" alt="" src="./public/1.jpg" />
+        </div>
+        <div class="bodycopy">
+          <div class="basicphotos">
+            <div class="basic-photos">BASIC PHOTOS</div>
+            <ul class="basiclist">
+     
+                <li class="photo-package">20 photo package</li>
+                <li class="photo-package">includes retouching</li>
+                <li class="photo-package">
+                  no revisions, no heavy photoshopping
+                </li>
+                <li class="photo-package">72 hour turn around</li>
+            </ul>
+
+          </div>
+          <div class="basicphotos">
+            <div class="basic-photos">ENHANCED PHOTOS</div>
+            <ul class="basiclist">
+
+                <li class="photo-package">30 photo package</li>
+                <li class="photo-package">includes retouching</li>
+                <li class="photo-package">
+                  revisions and photoshopping available with additional fees
+                </li>
+                <li class="photo-package">48 hour turn around</li>
+
+
+              </ul>
+          </div>
+          <div class="basicphotos">
+            <div class="basic-photos">VIDEO</div>
+            <ul class="basiclist">
+
+                <li class="photo-package">up to 3 minute video</li>
+                <li class="photo-package">includes arial video</li>
+                <li class="photo-package">
+                  voice over available for additional fee
+                </li>
+                <li class="photo-package">7 day turn around</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer style="width: 100%;">
+      <div class="social-icon">
+        <!-- Facebook -->
+        <a href="" target="_blank" class="fa fa-facebook-f fa-lg fa-2x padding-right"></a>
+        <!--Instagram-->
+        <a href="" target="_blank" class="fa fa-instagram fa-lg fa-2x padding-right"></a>
+        <!-- Twitter -->
+        <a href="" target="_blank" class="fa fa-twitter fa-lg fa-2x padding-right"></a>
+        <!-- Pinterest -->
+        <a href="" target="_blank" class="fa fa-pinterest fa-lg fa-2x padding-right"></a>
+        <!-- Linkedin -->
+        <a href="" target="_blank" class="fa fa-linkedin fa-lg fa-2x padding-right"></a>
+        <!-- GitHub -->
+        <a href="" target="_blank" class="fa fa-github-alt fa-lg fa-2x"></a>
+      </div>
+    </footer>
+    <script>
+      var frameContainer = document.getElementById("frameContainer");
+      if (frameContainer) {
+        frameContainer.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      
+      var murphyBarText = document.getElementById("murphyBarText");
+      if (murphyBarText) {
+        murphyBarText.addEventListener("click", function (e) {
+          window.location.href = "./murphybar.html";
+        });
+      }
+      
+      var photoPricelistText = document.getElementById("photoPriceListText");
+      if (photoPricelistText) {
+        photoPricelistText.addEventListener("click", function (e) {
+          window.location.href = "./pricelist.html";
+        });
+      }
+      
+      var photoPackagesText = document.getElementById("photoPackagesText");
+      if (photoPackagesText) {
+        photoPackagesText.addEventListener("click", function (e) {
+          window.location.href = "./packages.html";
+        });
+      }
+      
+      var ourWorkText = document.getElementById("ourWorkText");
+      if (ourWorkText) {
+        ourWorkText.addEventListener("click", function (e) {
+          window.location.href = "./OurWork.html";
+        });
+      }
+      
+      var aboutText = document.getElementById("aboutText");
+      if (aboutText) {
+        aboutText.addEventListener("click", function (e) {
+          window.location.href = "./thestory.html";
+        });
+      }
+      </script>
+  </body>
+</html>

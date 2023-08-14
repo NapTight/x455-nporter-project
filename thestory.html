@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./thestory.css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap"
+    />
+  </head>
+  <body>
+    <div class="the-story">
+      <div class="body">
+        <img class="body-image-icon" alt="" src="./public/body-image@2x.png" />
+
+        <div class="body-copy">
+          <div class="subtitle">HOW WE CAME TO BE</div>
+          <div class="story">
+            <div class="story-copy">
+              <p class="in-the-heart">
+                In the heart of a vibrant beach town, a group of passionate
+                artists came together to form "Form and Photo." Led by Nick, a
+                humble visionary, they embarked on a creative journey that would
+                meld the world of cannabis and furniture design.
+              </p>
+              <p class="in-the-heart">
+                Nick, driven by a genuine love for his craft, poured his heart
+                and soul into crafting remarkable furniture pieces. His designs,
+                though unassuming, radiated a unique blend of beauty and
+                functionality that resonated with people.
+              </p>
+              <p class="in-the-heart">
+                Joined by skilled artisans Sarah, Lisa, and Alex, the team of
+                Form and Photo created a harmonious collaboration. Sarah's
+                craftsmanship brought Nick's designs to life with impeccable
+                attention to detail. Lisa's insights into market trends added an
+                element of practicality to their creations. Alex's photography
+                captured the essence of their work, unveiling its hidden beauty
+                to the world.
+              </p>
+              <p class="in-the-heart">
+                Form and Photo humbly set out to make a difference in the design
+                industry. Their passion and dedication spoke volumes, and their
+                creations found their way into homes, galleries, and spaces that
+                appreciated their artistry.
+              </p>
+              <p class="in-the-heart">
+                Today, Form and Photo continue to embrace their humble roots.
+                They strive to create designs that touch people's lives,
+                celebrating the marriage of form and functionality. Join them on
+                their artistic journey as they transform spaces and create
+                meaningful experiences through their heartfelt designs.
+              </p>
+            </div>
+            <div class="story-subtitle">STORY</div>
+          </div>
+        </div>
+        <div class="the-story1">THE STORY</div>
+      </div>
+      <div class="carouselcontainer">
+        <div class="carouselfiller"></div>
+        <div class="carousel">
+          <img class="img-1-icon" alt="" src="./public/img-1@2x.png" />
+
+          <img class="img-1-icon" alt="" src="./public/img-2@2x.png" />
+
+          <img class="img-1-icon" alt="" src="./public/img-3@2x.png" />
+
+          <img class="img-1-icon" alt="" src="./public/img-4@2x.png" />
+
+          <img class="img-1-icon" alt="" src="./public/img-5@2x.png" />
+        </div>
+        <div class="carouselfiller"></div>
+    </div>
+      <div class="header">
+        <div class="header-left-links">
+          <div class="home-wrapper" id="frameContainer">
+            <div class="home">Home</div>
+          </div>
+          <div class="murphy-bar-wrapper">
+            <div class="murphy-bar" id="murphyBarText">Murphy Bar</div>
+          </div>
+          <div class="photo-price-list-wrapper">
+            <div class="murphy-bar" id="photoPriceListText">Photo Pricelist</div>
+          </div>
+          <div class="photo-price-list-wrapper">
+            <div class="murphy-bar" id="photoPackagesText">Photo Packages</div>
+          </div>
+          <div class="photo-price-list-wrapper">
+            <div class="murphy-bar" id="ourWorkText">Our Work</div>
+          </div>
+        </div>
+        <div class="header-filler"></div>
+        <div class="header-right-links">
+          <div class="murphy-bar" id="aboutText">About</div>
+        </div>
+        
+      </div>
+      
+      <footer style="width: 100%;">
+        <div class="social-icon">
+          <!-- Facebook -->
+          <a href="" target="_blank" class="fa fa-facebook-f fa-lg fa-2x padding-right"></a>
+          <!--Instagram-->
+          <a href="" target="_blank" class="fa fa-instagram fa-lg fa-2x padding-right"></a>
+          <!-- Twitter -->
+          <a href="" target="_blank" class="fa fa-twitter fa-lg fa-2x padding-right"></a>
+          <!-- Pinterest -->
+          <a href="" target="_blank" class="fa fa-pinterest fa-lg fa-2x padding-right"></a>
+          <!-- Linkedin -->
+          <a href="" target="_blank" class="fa fa-linkedin fa-lg fa-2x padding-right"></a>
+          <!-- GitHub -->
+          <a href="" target="_blank" class="fa fa-github-alt fa-lg fa-2x"></a>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      var frameContainer = document.getElementById("frameContainer");
+      if (frameContainer) {
+        frameContainer.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      
+      var murphyBarText = document.getElementById("murphyBarText");
+      if (murphyBarText) {
+        murphyBarText.addEventListener("click", function (e) {
+          window.location.href = "./murphybar.html";
+        });
+      }
+      
+      var photoPricelistText = document.getElementById("photoPriceListText");
+      if (photoPricelistText) {
+        photoPricelistText.addEventListener("click", function (e) {
+          window.location.href = "./pricelist.html";
+        });
+      }
+      
+      var photoPackagesText = document.getElementById("photoPackagesText");
+      if (photoPackagesText) {
+        photoPackagesText.addEventListener("click", function (e) {
+          window.location.href = "./packages.html";
+        });
+      }
+      
+      var ourWorkText = document.getElementById("ourWorkText");
+      if (ourWorkText) {
+        ourWorkText.addEventListener("click", function (e) {
+          window.location.href = "./OurWork.html";
+        });
+      }
+      
+      var aboutText = document.getElementById("aboutText");
+      if (aboutText) {
+        aboutText.addEventListener("click", function (e) {
+          window.location.href = "./thestory.html";
+        });
+      }
+      </script>
+  </body>
+</html>

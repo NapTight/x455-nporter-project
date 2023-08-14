@@ -1,0 +1,278 @@
+.home {
+  position: relative;
+}
+
+.home-wrapper {
+  width: 34px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.murphy-bar {
+  position: relative;
+  cursor: pointer;
+}
+
+.murphy-bar-wrapper,
+.our-work-wrapper,
+.photography-wrapper {
+  width: 66px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.our-work-wrapper,
+.photography-wrapper {
+  width: 73px;
+}
+
+.our-work-wrapper {
+  width: 53px;
+}
+
+.header-left-links {
+  width: 300px;
+  height: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+.header-filler {
+  flex: 1;
+}
+
+.header,
+.header-right-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header {
+  align-self: stretch;
+  overflow: hidden;
+  padding: 8px 40px;
+  justify-content: space-between;
+  z-index: 0;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  width: 100%;
+}
+
+.formphoto {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 77.52%;
+  font-weight: 900;
+}
+
+.form-and-photo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 1;
+  font-size: 200px;
+}
+
+.new-limited-designs {
+  width: 585px;
+  flex-shrink: 0;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 90.02%;
+}
+
+.limited-design-cta,
+.trays {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.limited-design-cta {
+  align-self: stretch;
+  align-items: center;
+  z-index: 2;
+}
+
+.trays {
+  width: 625px;
+  align-items: flex-start;
+  z-index: 3;
+  font-size: 180px;
+}
+
+.make-your-projects {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 90.02%;
+  z-index: 4;
+}
+
+.story {
+  width: 1739px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+  font-size: var(--font-size-xl);
+}
+
+.murphy-bar1 {
+  width: 943px;
+  cursor: pointer;
+  z-index: 6;
+  font-size: var(--font-size-121xl);
+}
+
+.bath-caddy,
+.murphy-bar1,
+.photography1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.bath-caddy {
+  width: 930px;
+  z-index: 7;
+  font-size: var(--font-size-121xl);
+}
+
+.photography1 {
+  align-self: stretch;
+  cursor: pointer;
+  z-index: 8;
+  font-size: 160px;
+}
+
+.imagery-that-make,
+.not-only-are {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 90.02%;
+  display: inline-block;
+}
+
+.imagery-that-make {
+  width: 744px;
+  z-index: 9;
+}
+
+.not-only-are {
+  width: 585px;
+  flex-shrink: 0;
+}
+
+.story-2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  font-size: var(--font-size-xl);
+}
+
+.product-gif-icon {
+  margin: 0 !important;
+  position: absolute;
+  top: 159px;
+  left: 45px;
+  width: 30%;
+  object-fit: cover;
+  z-index: 11;
+}
+
+.homepage {
+  position: relative;
+  background-color: #f2f2f2;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 28px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+
+footer>div.social-icon {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(216, 216, 216);
+  font-size: 14px;
+  color: red;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+footer a {
+  border-bottom: none;
+}
+
+a {
+  text-decoration: none !important;
+  color: rgb(68, 68, 68);
+}
+
+@media (max-width: 1424px) {
+  .form-and-photo {
+    font-size: 14vw;
+  }
+
+  .limited-design-cta {
+    font-size: 2.5vw;
+  }
+
+  .trays {
+    font-size: 13vw;
+  }
+
+  .make-your-projects {
+    font-size: 2.5vw;
+  }
+
+  .story {
+    font-size: 1.4vw;
+  }
+
+  .murphy-bar1 {
+    font-size: 9.5vw;
+  }
+
+  .bath-caddy {
+    font-size: 9.5vw;
+  }
+
+  .photography1 {
+    font-size: 11vw;
+  }
+
+  .imagery-that-make {
+    font-size: 2.5vw;
+  }
+
+  .story-2 {
+    font-size: 1.4vw;
+  }
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./OurWork.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap"
+    />
+    <link rel="stylesheet" href="lightbox.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Our Work</title>
+    <link rel="stylesheet" href="header.css" />
+</head>
+<body>
+    <div class="our-work">
+ 
+        <div class="header">
+          <div class="header-left-links">
+            <div class="home-wrapper" id="frameContainer">
+              <div class="home">Home</div>
+            </div>
+            <div class="murphy-bar-wrapper">
+              <div class="murphy-bar" id="murphyBarText">Murphy Bar</div>
+            </div>
+            <div class="photo-price-list-wrapper">
+                <div class="murphy-bar" id="photoPriceListText">Photo Pricelist</div>
+              </div>
+            <div class="photo-price-list-wrapper">
+              <div class="murphy-bar" id="photoPackagesText">Photo Packages</div>
+            </div>
+            <div class="photo-price-list-wrapper">
+              <div class="murphy-bar" id="ourWorkText">Our Work</div>
+            </div>
+          </div>
+          <div class="header-filler"></div>
+          <div class="header-right-links">
+            <div class="murphy-bar" id="aboutText">About</div>
+          </div>
+        </div>
+        <div class="page-title">OUR WORK</div>
+        <div class="new-york">NEW YORK</div>
+        <div class="pics" id="newyorkpics">
+          <a href="./public/ny-interior-1@2x.jpg" data-lightbox="Architecture Photography" data-title="NY Interior 1"><img id="myImg" class="ny-interior-1" alt="" src="./public/ny-interior-1@2x.jpg" /></a>
+          <a href="./public/ny-interior-2@2x.jpg" data-lightbox="Architecture Photography" data-title="NY Interior 2"><img id="myImg" class="ny-interior-2" alt="" src="./public/ny-interior-2@2x.jpg" /></a>
+        </div>
+        <div class="los-angeles">LOS ANGELES</div>
+        <div class="pics" id="lapics">
+          <a href="./public/la-exterior-1@2x.jpg" data-lightbox="Architecture Photography" data-title="Luxury LA Apartment Building"><img id="myImg" class="ny-interior-1" alt="" src="./public/la-exterior-1@2x.jpg" /></a>
+          <a href="./public/la-exterior-2@2x.jpg" data-lightbox="Architecture Photography" data-title="Luxury LA Apartment Entrance"><img id="myImg" class="ny-interior-2" alt="" src="./public/la-exterior-2@2x.jpg" /></a>
+        </div>
+        <div class="lake-lahoe">LAKE TAHOE</div>
+        <div class="pics" id="laketahoepics">
+          <a href="./public/tahoe-interior-1@2x.jpg" data-lightbox="Architecture Photography" data-title="South Tahoe Summer Cabin Views"><img id="myImg" class="ny-interior-1" alt="" src="./public/tahoe-interior-1@2x.jpg" /></a>
+          <a href="./public/tahoe-interior-2@2x.jpg" data-lightbox="Architecture Photography" data-title="Snowy Tahoe Cabin Exterior"><img id="myImg" class="ny-interior-2" alt="" src="./public/tahoe-interior-2@2x.jpg" /></a>
+        </div>
+        <div class="santa-barbara">SANTA BARBARA</div>
+        <div class="pics" id="sbpics">
+          <a href="./public/sb-interior-1@2x.jpg" data-lightbox="Architecture Photography" data-title="Circle Top Picture Windows Santa Barbara"><img id="myImg" class="ny-interior-1" alt="" src="./public/sb-interior-1@2x.jpg" /></a>
+          <a href="./public/sb-interior-2@2x.jpg" data-lightbox="Architecture Photography" data-title="Limestone Kitchen Santa Barbara"><img id="myImg" class="ny-interior-2" alt="" src="./public/sb-interior-2@2x.jpg" /></a>
+        </div>
+        <footer style="width: 100%;">
+          <div class="social-icon">
+            <!-- Facebook -->
+            <a href="" target="_blank" class="fa fa-facebook-f fa-lg fa-2x padding-right"></a>
+            <!--Instagram-->
+            <a href="" target="_blank" class="fa fa-instagram fa-lg fa-2x padding-right"></a>
+            <!-- Twitter -->
+            <a href="" target="_blank" class="fa fa-twitter fa-lg fa-2x padding-right"></a>
+            <!-- Pinterest -->
+            <a href="" target="_blank" class="fa fa-pinterest fa-lg fa-2x padding-right"></a>
+            <!-- Linkedin -->
+            <a href="" target="_blank" class="fa fa-linkedin fa-lg fa-2x padding-right"></a>
+            <!-- GitHub -->
+            <a href="" target="_blank" class="fa fa-github-alt fa-lg fa-2x"></a>
+          </div>
+        </footer>
+    </div>
+
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+      </div>
+
+    <script src="lightbox-plus-jquery.min.js"></script>
+    <script>
+      var frameContainer = document.getElementById("frameContainer");
+      if (frameContainer) {
+        frameContainer.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      
+      var murphyBarText = document.getElementById("murphyBarText");
+      if (murphyBarText) {
+        murphyBarText.addEventListener("click", function (e) {
+          window.location.href = "./murphybar.html";
+        });
+      }
+      
+      var photoPricelistText = document.getElementById("photoPricelistText");
+      if (photoPricelistText) {
+        photoPricelistText.addEventListener("click", function (e) {
+          window.location.href = "./pricelist.html";
+        });
+      }
+      
+      var photoPricelistText = document.getElementById("photoPriceListText");
+    if (photoPricelistText) {
+      photoPricelistText.addEventListener("click", function (e) {
+        window.location.href = "./pricelist.html";
+      });
+    }
+
+      var photoPackagesText = document.getElementById("photoPackagesText");
+      if (photoPackagesText) {
+        photoPackagesText.addEventListener("click", function (e) {
+          window.location.href = "./packages.html";
+        });
+      }
+      
+      var ourWorkText = document.getElementById("ourWorkText");
+      if (ourWorkText) {
+        ourWorkText.addEventListener("click", function (e) {
+          window.location.href = "./OurWork.html";
+        });
+      }
+      
+      var aboutText = document.getElementById("aboutText");
+      if (aboutText) {
+        aboutText.addEventListener("click", function (e) {
+          window.location.href = "./thestory.html";
+        });
+      }
+      </script>
+
+</body>
+</html>

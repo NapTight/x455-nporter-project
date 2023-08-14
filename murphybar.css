@@ -1,0 +1,266 @@
+.home {
+  position: relative;
+}
+
+.home-wrapper {
+  width: 34px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.murphy-bar {
+  position: relative;
+  cursor: pointer;
+}
+
+.murphy-bar-wrapper,
+.our-work-wrapper,
+.photography-wrapper {
+  width: 66px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.our-work-wrapper,
+.photography-wrapper {
+  width: 73px;
+}
+
+.our-work-wrapper {
+  width: 53px;
+}
+
+.header-left-links {
+  width: 300px;
+  height: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+
+.header-filler {
+  flex: 1;
+}
+
+.header,
+.header-right-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header {
+  align-self: stretch;
+  overflow: hidden;
+  padding: var(--padding-5xs) var(--padding-21xl);
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.product-image-icon {
+  position: relative;
+  width: 50%;
+  height: 1080px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.make-your-place,
+.this-narrow-cabinet {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 90.02%;
+  display: inline-block;
+  width: 528px;
+}
+
+.make-your-place {
+  font-size: var(--font-size-21xl);
+}
+
+.product-highlights {
+  width: 528px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  font-size: var(--font-size-xl);
+}
+
+.details {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 90.02%;
+  font-size: var(--font-size-9xl);
+}
+
+.list-1 {
+  margin-bottom: 0;
+  font-size: var(--font-size-xl);
+}
+
+.list-1-list-1-list-1-list-1 {
+  margin: 0;
+  padding-left: var(--padding-8xl);
+}
+
+.list-1-list-container {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 90.02%;
+}
+
+.list-1-list-1-list-1-list-1-parent,
+.product-details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+
+.list-1-list-1-list-1-list-1-parent {
+  flex: 1;
+  width: 658px;
+  flex-direction: row;
+  font-size: var(--font-inherit);
+  font-family: var(--font-inter);
+}
+
+.product-details {
+  align-self: stretch;
+  flex-direction: column;
+}
+
+.dorem-ipsum-dolor {
+  margin: 0;
+}
+
+.dorem-ipsum-dolor-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: -0.01em;
+  line-height: 90.02%;
+  white-space: pre-line;
+}
+
+.product-description {
+  background-color: #e6e6e6;
+  width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 240px 32px 0PX;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 60px;
+  z-index: 1;
+  height: 1080p;
+}
+
+.murphy-bar1 {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 77.52%;
+  font-weight: 900;
+}
+
+.page-title {
+  margin: 0 !important;
+  position: absolute;
+  top: 28px;
+  display: inline-block;
+  flex-direction: row;
+  padding: var(--padding-9xl) 0;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  font-size: var(--font-size-181xl);
+  left: 48px;
+}
+
+.header-parent,
+.product-page-body {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+}
+
+.product-page-body {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: left;
+  font-size: var(--font-size-9xl);
+  height: 1080p;
+  background-color: #e6e6e6;
+  font-family: inter;
+}
+
+.header-parent {
+  background-color: #e6e6e6;
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 0;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: inter;
+
+}
+
+@media (max-width: 1440px) {
+  .murphy-bar1 {
+    font-size: 13.5vw;
+  }
+}
+
+@media (max-width: 1280px) {
+  .this-narrow-cabinet {
+    font-size: 1.6vw;
+  }
+
+  .make-your-place {
+    font-size: 3vw;
+  }
+
+  .details {
+    font-size: 2.3vw;
+  }
+
+  .list-1 {
+    font-size: 1.6vw;
+  }
+
+  .dorem-ipsum-dolor {
+    font-size: 1.6vw;
+  }
+
+  .list-1-list-container {
+    max-width: 40%;
+  }
+
+    {
+    font-size: 1.5vw;
+  }
+}
