@@ -276,3 +276,9 @@ a {
     font-size: 1.4vw;
   }
 }
+
+@media (min-width: 1424px) {
+  .product-gif-icon {
+    width: 427px;
+  }
+}
